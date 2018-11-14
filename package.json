@@ -1,0 +1,21 @@
+{
+  "name": "wat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wat": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.6"
+  }
+}
